@@ -1,0 +1,85 @@
+charset "utf-8"
+
+html {
+  bottom: 0;
+}
+
+body {
+  margin: 0;
+  background-color: antiquewhite;
+  color: saddlebrown;
+  font-size: 1.2rem;
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+/**************main******************************/
+.main {
+  background-color: antiquewhite;
+  width: 100%;
+  height: 520px;
+}
+
+.box {
+  width: 100%;
+  height: 510px;
+  border: 2px solid;
+}
+
+/*************content-a**************************/
+.box .content-a {
+  width: 80%;
+  height: 200px;
+  border: 1px solid;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+.box .content-a h2 {
+  width: 600px;
+  height: 60px;
+  font-size: 3.0rem;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid;
+  margin-left: 300px;
+  margin-top: 80px;
+  background-color: burlywood;
+}
+
+/*************content-b**************************/
+.box .content-b {
+  width: 70%;
+  height: 90px;
+  border: 1px solid;
+  margin-left: 250px;
+}
+
+.box .content-b h2 {
+  width: 600px;
+  height: 60px;
+  font-size: 2.0rem;
+  text-align: center;
+  margin-left: 240px;
+}
+
+/*************content-c**************************/
+.box .content-c {
+  width: 500px;
+  height: 60px;
+  border: 1px solid;
+  margin-left: 480px;
+}
+
+.box .content-c h2 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.box .content-c a {
+  color: saddlebrown;
+}
+
+.box .content-c a:hover {
+  background-color: #d03c56;
+  color: #fff;
+}

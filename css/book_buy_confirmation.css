@@ -1,0 +1,188 @@
+charset "utf-8"
+
+html {
+  bottom: 0;
+}
+
+body {
+  margin: 0;
+  background-color: #dcdcdd;
+  color: saddlebrown;
+  font-size: 1.2rem;
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+/**************main******************************/
+.main {
+  background-color: #dcdcdd;
+  width: 100%;
+  height: 670px;
+}
+
+/*************:content-a**************************/
+.box {
+  width: 100%;
+  height: 670px;
+}
+
+
+.box .content-a {
+  width: 30%;
+  height: 50px;
+  margin-left: 500px;
+  margin-top: 40px;
+}
+
+.content-a h2 {
+  width: 200px;
+  height: 30px;
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid;
+  margin-left: 100px;
+  background-color: #496189;
+  color: white;
+}
+
+/***********content-b********************************/
+.box .content-b {
+  width: 60%;
+  height: 500px;
+  border: 5px solid;
+  margin-left: 280px;
+  margin-top: 40px;
+  background-color: #a8b5bd;
+}
+
+.content-b .book-picture {
+  width: 20%;
+  height: 400px;
+  float: left;
+  margin-left: 50px;
+
+}
+
+.content-b .book-picture img {
+  width: 215px;
+  height: 300px;
+  border: 5px solid;
+  border-radius: 5px;
+  border-color: saddlebrown;
+  box-shadow: 2px 2px 2px 2px;
+  color: darkgray;
+  margin: 80px 0px 0px 30px;
+}
+
+.book-picture .title {
+  width: 216px;
+  height: 100px;
+}
+
+.book-picture .title h3 {
+  font-size: 1.3rem;
+  color: saddlebrown;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+
+
+
+.content-b .book-infomation {
+  width: 60%;
+  height: 500px;
+  float: right;
+}
+
+
+.book-infomation .detail {
+  width: 100%;
+  height: 300px;
+}
+
+
+.detail .detail-text {
+  width: 100%;
+  height: 180px;
+}
+
+
+.detail .detail-text h2 {
+  list-style: none;
+  font-size: 1.5rem;
+  padding: 3px;
+  margin-top: 40px;
+}
+
+.detail .book-price {
+  width: 100%;
+  height: 50px;
+}
+
+.detail .book-price h2 {
+  font-size: 2.2rem;
+  margin-left: 120px;
+  margin-top: 20px;
+}
+
+.book-infomation .detail-button {
+  width: 500px;
+  height: 100px;
+}
+
+.detail-button .detail-coment {
+  width: 260px;
+  height: 30px;
+  margin-top: 10px;
+  float: left;
+}
+
+.detail-button .detail-coment span {
+  text-align: center;
+}
+
+.detail-button .button {
+  border: dashed 2px white;
+  font-size: 1.3rem;
+  background-color: burlywood;
+  color: saddlebrown;
+  border-radius: 4px;
+  display: inline-block;
+  width: 80px;
+  height: 50px;
+  padding: 0.5em 1em;
+  box-shadow: 0px 0px 0px 5px burlywood;
+}
+
+.detail-button .button:hover {
+  list-style: none;
+  text-decoration: none;
+  background-color: #d03c56;
+  color: #fff;
+  transform: translate3d(0, 2px, 0);
+}
+
+
+/***********content-c********************************/
+.box .content-c {
+  width: 30%;
+  height: 50px;
+  margin-left: 930px;
+}
+
+.content-c h2 {
+  padding: 30px;
+  font-size: 1.5rem;
+}
+
+.content-c h2 a {
+  text-decoration: none;
+  color: saddlebrown;
+
+}
+
+.content-c h2 a:hover {
+  background-color: #d03c56;
+  color: #fff;
+}

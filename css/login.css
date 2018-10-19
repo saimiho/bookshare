@@ -1,0 +1,162 @@
+charset "utf-8"
+
+html {
+  bottom: 0;
+}
+
+body {
+  margin: 0;
+  background-color: #dcdcdd;
+  color: saddlebrown;
+  font-size: 1.2rem;
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+/**************main******************************/
+.main {
+  background-color: #dcdcdd;
+  width: 100%;
+  height: 480px;
+}
+
+.box {
+  width: 100%;
+  height: 480px;
+}
+
+/*************content-a**************************/
+.box .content-a {
+  width: 30%;
+  height: 50px;
+  margin-left: 500px;
+  margin-top: 40px;
+}
+
+.box .content-a h2 {
+  width: 180px;
+  height: 30px;
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid;
+  margin-left: 100px;
+  color: white;
+  background-color: #496189;
+}
+
+/*************content-b**************************/
+.box .content-b {
+  width: 30%;
+  height: 300px;
+  border: 5px solid;
+  margin-left: 480px;
+  margin-top: 40px;
+  background-color: #a8b5bd;
+}
+
+.content-b .newdetail {
+  width: 100%;
+  height: 200px;
+  margin-top: 10px;
+}
+
+.newdetail .detail-a {
+  width: 180px;
+  height: 200px;
+  float: left;
+  margin-left: 10px;
+}
+
+.newdetail .detail-a h2 {
+  width: 180px;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  float: right;
+  text-align: center;
+}
+
+.newdetail .detail-b {
+  width: 200px;
+  height: 200px;
+  float: right;
+  margin-right: 15px;
+  margin-right: 20px;
+}
+
+.detail-b .detail-box {
+  width: 200px;
+  height: 200px;
+  margin-top: 10px;
+}
+
+.detail-b .detail-box input {
+  text-decoration: none;
+  color: saddlebrown;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 7px;
+  padding-top: 10px;
+}
+
+/*************content-c**************************/
+.content-b .content-c {
+  width: 100%;
+  height: 80px;
+  margin-top: 20px;
+}
+
+.content-c .detail-button {
+  width: 160px;
+  height: 50px;
+  margin-left: 240px;
+}
+
+.content-c .detail-button input {
+  display: inline-block;
+  border: dashed 2px white;
+  font-size: 1.3rem;
+  background-color: burlywood;
+  color: saddlebrown;
+  border-radius: 4px;
+  width: 160px;
+  height: 50px;
+  box-shadow: 0px 0px 0px 5px burlywood;
+}
+
+.content-c .detail-button input:hover {
+  list-style: none;
+  text-decoration: none;
+  background-color: #d03c56;
+  color: #fff;
+  transform: translate3d(0, 2px, 0);
+}
+
+
+
+
+/*************content-d**************************/
+.box .content-d {
+  width: 200px;
+  height: 40px;
+  float: right;
+  margin-right: 500px;
+  margin-top: 20px;
+}
+
+
+.box .content-d h2 {
+  font-size: 1.5rem;
+  padding: 5px;
+}
+
+.box .content-d a {
+  text-decoration: none;
+  color: saddlebrown;
+}
+
+.box .content-d a:hover {
+  background-color: #d03c56;
+  color: #fff;
+}

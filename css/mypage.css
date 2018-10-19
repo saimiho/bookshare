@@ -1,0 +1,524 @@
+charset "utf-8"
+
+html {
+  bottom: 0;
+}
+
+body {
+  margin: 0;
+  background-color: #dcdcdd !important;
+  color: saddlebrown;
+  font-size: 1.2rem;
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+/**************main******************************/
+.main {
+  background-color: #dcdcdd;
+  width: 100%;
+  height: 1350px;
+}
+
+/*************:content-a**************************/
+.content-a {
+  width: 100%;
+  height: 330px;
+}
+
+.content-a .account {
+  width: 55%;
+  height: 330px;
+  border: 5px solid;
+  border-color: saddlebrown;
+  margin: 40px 0px 0px 330px;
+  background-color: #a8b5bd;
+  position: relative;
+}
+
+/*******アカウント情報(文字)***********/
+.account .account-title {
+  width: 100%;
+  height: 50px;
+}
+
+.account .account-title h2 {
+  width: 300px;
+  height: 30px;
+  font-size: 1.8rem;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 260px;
+  border: 2px solid;
+  padding: 8px;
+  background-color: #496189;
+
+}
+
+/*******アカウント情報(文字のみ)終わり***********/
+
+.account-box {
+  display: inline-block;
+  width: 100%;
+  height: 260px;
+  position: relative;
+}
+
+.account-box .account-pic {
+  width: 180px;
+  height: 200px;
+  margin-left: 30px;
+  margin-top: 20px;
+
+}
+
+.account-box .account-pic img {
+  /*****人のイラストにする*****/
+  width: 180px;
+  height: 180px;
+  margin-top: 10px;
+  border: 5px solid;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.account-box .account-list {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 270px;
+  right: 0;
+  bottom: 0;
+  width: 280px;
+  height: 180px;
+  padding: 0.2em 0.5em;
+  margin: 2em 0;
+  background: burlywood;
+  box-shadow: 0px 0px 0px 10px burlywood;
+  border: dashed 2px white;
+}
+
+.account-box .account-list li {
+  font-size: 1.2rem;
+  color: saddlebrown;
+  list-style: none;
+  text-align: left;
+  padding: 5px;
+}
+
+.account-box .account-list li h3 {
+  font-size: 1.0rem;
+  border: 1px solid;
+  height: 40px;
+  margin-top: 8px;
+  background-color: white;
+}
+
+
+.account-box .book-registration {
+  width: 180px;
+  height: 200px;
+  position: absolute;
+  top: 30px;
+  left: 600px;
+  right: 0px;
+  bottom: 20px;
+}
+
+.account-box .book-registration input {
+  width: 180px;
+  height: 200px;
+}
+
+
+.account-box .book-registration input:hover {
+  transform: translate3d(0, 2px, 0);
+}
+
+/*************:content-aおわり**************************/
+/*************:content-b**************************/
+.content-b {
+  width: 100%;
+  height: 940px;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+/***********出品の大箱リスト*************/
+.content-b .mybook-box {
+  border: 5px solid;
+  border-radius: 5px;
+  border-color: saddlebrown;
+  background-color: #a8b5bd;
+  width: 55%;
+  height: 920px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+/********表題****************/
+.mybook-box .mybook-title {
+  width: 90%;
+  height: 80px;
+  margin-left: 55px;
+}
+
+.mybook-box .mybook-title h2 {
+  background-color: #496189;
+  width: 200px;
+  height: 40px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
+  list-style: none;
+  border: 2px solid;
+  display: inline-block;
+  text-align: center;
+  padding-top: 10px;
+  margin: 20px 10px 0 10px;
+}
+
+
+.mybook-box .mybook-title h2:hover {
+  transform: translate3d(0, 2px, 0);
+}
+
+.mybook-box .mybook-title span {
+  background-color: darkgray;
+  width: 200px;
+  height: 40px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: saddlebrown;
+  list-style: none;
+  border: 2px solid;
+  display: inline-block;
+  text-align: center;
+  padding-top: 10px;
+  margin: 20px 10px 0 10px;
+
+}
+
+.mybook-box .mybook-title span:hover {
+  transform: translate3d(0, 2px, 0);
+}
+
+.mybook-box .mybook-title span h3 {
+  opacity: 0.5;
+}
+
+
+.mybook-box .mybook-shelf {
+  width: 780px;
+  height: 800px;
+}
+
+
+
+
+/********表題終わり****************/
+/********本棚********************/
+.mybook-shelf .mybook-little-box {
+  width: 700px;
+  height: 760px;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.mybook-little-box .mybook {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin: 32px 4px 10px 22px;
+}
+
+.mybook-little-box .mybook a {
+  display: inline-block;
+  position: relative;
+  width: 170px;
+  height: 190px;
+  border: 5px solid;
+  border-radius: 5px;
+  color: saddlebrown;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.mybook .img {
+  width: 170px;
+  height: 190px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.mybook a .title {
+  width: 170px;
+  height: 60px;
+  font-size: 12px;
+  background-color: burlywood;
+  position: absolute;
+  top: 130px;
+  left: 0px;
+  right: 0;
+  bottom: 0;
+}
+
+.mybook a .title h3 {
+  text-align: left;
+  color: saddlebrown;
+  margin: 5px 0;
+}
+
+
+
+/********本棚終わり********************
+/******ページング********************/
+.mybook-box .paging {
+  width: 90%;
+  height: 40px;
+  margin: 0px 0px 0px 40px;
+}
+
+.paging .paging-list li {
+  border: 2px solid;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 5px 10px 10px 40px;
+  font-size: 1.0rem;
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  background-color: #496189;
+  color: white;
+}
+
+.paging .paging-list li a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+.paging .paging-list li:hover,
+.paging .paging-list li a:hover {
+  list-style: none;
+  border-radius: 8px;
+  text-decoration: none;
+  background-color: #d03c56;
+  color: #fff;
+}
+
+/******掲示板*****************************/
+.content-b .bulletin-board {
+  border: 5px solid;
+  border-radius: 5px;
+  border-color: saddlebrown;
+  background-color: #a8b5bd;
+  width: 34%;
+  height: 920px;
+  float: right;
+  margin: 10px 40px 0px 0px;
+}
+
+.bulletin-board .bulletin-board-title {
+  width: 140px;
+  height: 40px;
+  border: 2px solid;
+  border-color: white;
+  color: white;
+  margin-left: 170px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  background-color: #496189;
+}
+
+.bulletin-board .bulletin-board-title h2 {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+/**********************************************/
+.bulletin-board .tweet-box {
+  width: 100%;
+  height: 180px;
+  margin: 0 auto;
+}
+
+.tweet-box .tweet-text {
+  width: 390px;
+  height: 100px;
+  border: 5px solid;
+  border-radius: 5px;
+  margin-left: 40px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.tweet-text input {
+  font-size: 1.0rem;
+}
+
+.tweet-box .bulletin-button {
+  display: inline-block;
+  width: 80px;
+  height: 20px;
+  padding: 0.5em 1em;
+  background: burlywood;
+  color: #FFF;
+  border-radius: 4px;
+  box-shadow: 0px 0px 0px 5px burlywood;
+  border: dashed 1px #FFF;
+  margin: 20px 0px 0px 180px;
+}
+
+.bulletin-button .square_btn {
+  text-decoration: none;
+  color: saddlebrown;
+  font-size: 1.2rem;
+  text-align: center;
+  padding-left: 20px;
+}
+
+.tweet-box .bulletin-button:hover {
+  border-radius: 8px;
+  text-decoration: none;
+  background-color: #d03c56;
+  transform: translate3d(0, 2px, 0);
+
+}
+
+.bulletin-button .square_btn:hover {
+  color: #fff;
+}
+
+/****************掲示板過去のコメント欄************************/
+.bulletin-board .bulletin-stock {
+  width: 480px;
+  height: 620px;
+}
+
+/************************************/
+.bulletin-stock .bulletin-box {
+  width: 390px;
+  height: 140px;
+  border: 5px solid;
+  border-radius: 5px;
+  margin: 10px 10px 10px 40px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+  background-color: white;
+}
+
+.bulletin-box .bulletin-name-box {
+  width: 390px;
+  height: 30px;
+  border: 1px solid;
+}
+
+.bulletin-box .bulletin-name {
+  width: 193px;
+  height: 30px;
+  float: left;
+  border: 1px solid;
+}
+
+.bulletin-box .bulletin-name h2 {
+  font-size: 1.0rem;
+  color: saddlebrown;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.bulletin-box .bulletin-date {
+  width: 193px;
+  height: 30px;
+  float: right;
+  border: 1px solid;
+}
+
+.bulletin-box .bulletin-date h2 {
+  font-size: 1.0rem;
+  color: saddlebrown;
+  text-align: center;
+  padding-top: 5px;
+}
+
+
+.bulletin-box .bulletin-twieet {
+  width: 100%;
+  height: 70px;
+  border: 2px solid;
+  margin-left: -1px;
+}
+
+.bulletin-box .bulletin-twieet h2 {
+  font-size: 0.9rem;
+  color: saddlebrown;
+  text-align: justify;
+  display: table-row;
+  border: 1px solid;
+}
+
+.bulletin-box .bulletin-bookname-box {
+  width: 100%;
+  height: 38px;
+  float: left;
+  border: 1px solid;
+}
+
+.bulletin-bookname-box .bulletin-bookname h2 {
+  width: 50%;
+  height: 28px;
+  font-size: 1.0rem;
+  color: saddlebrown;
+  padding-top: 10px;
+  text-align: justify;
+  border: 1px solid;
+  float: left;
+}
+
+.bulletin-bookname-box .bulletin-like {
+  width: 48.96%;
+  height: 33px;
+  float: right;
+  display: inline-block;
+  border: 1px solid;
+}
+
+.bulletin-bookname-box .bulletin-like h2 {
+  width: 60px;
+  height: 28px;
+  font-size: 1.0rem;
+  color: saddlebrown;
+  float: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 30px;
+}
+
+
+.bulletin-bookname-box .heart {
+  width: 40px;
+  height: 40px;
+  float: right;
+  margin-right: 50px;
+}
+
+
+.bulletin-bookname-box .heart:hover {
+  transform: translate3d(0, 2px, 0);
+}
+
+
+
+
+
+
+
+/**************掲示板終わり**************************/
+
+
+
+/*************:content-bおわり**************************/
+/**************mainおわり******************************/
